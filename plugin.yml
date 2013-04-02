@@ -1,0 +1,9 @@
+name: NitPickPlus
+main: me.Codmikeg.nitpickplus.nitPickMain
+version: 0.01
+author: Codmikeg
+description: >
+             TWEAKS.
+commands:
+  test:
+    description: debugger
