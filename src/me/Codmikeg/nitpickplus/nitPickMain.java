@@ -14,7 +14,7 @@ public class nitPickMain extends JavaPlugin{
 	
 	@Override
 	public void onEnable(){
-        
+        getServer().getPluginManager().registerEvents(new nitListener(this), this);
 		ar = new ArmourRecipe(this);
 		ar.init();
         PluginDescriptionFile pdfFile = this.getDescription();
